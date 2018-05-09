@@ -7,3 +7,5 @@ file = open('engmix.txt')
 numWords = 0
 for line in file:
     numWords+=1
+
+print(numWords)
