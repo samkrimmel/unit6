@@ -7,7 +7,7 @@ file = open('engmix.txt')
 numWords = 0
 for line in file:
     if 'sam' in line:
-        print(line)
+        print(line.strip())
     numWords+=1
 
 print(numWords)
