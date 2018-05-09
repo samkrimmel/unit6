@@ -6,7 +6,7 @@ file = open('engmix.txt')
 
 numWords = 0
 for line in file:
-    if 'ack' in line:
+    if 'sam' in line:
         print(line)
     numWords+=1
 
