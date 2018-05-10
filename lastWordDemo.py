@@ -9,4 +9,4 @@ for line in file:
     if len(words) > 0:
         print(words[-1])
     else:
-        priint()
+        print()
