@@ -7,8 +7,9 @@ file = open('engmix.txt')
 numWords = [0]*21
 
 for i in range(1,22):
-    for line in file:
+    for line in file.strip():
         if len(line) == i:
             numWords[i-1] += 1
 
-print(numWords)
+for i in range(1,22):
+    print('There are',numWords[i-1], i, 'letter words.')
