@@ -10,4 +10,5 @@ for i in range(1,21):
     for line in file:
         if len(line) == i:
             numWords[i-1] += 1
-            
+
+print(numWords)
