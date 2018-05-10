@@ -11,5 +11,7 @@ for i in range(1,22):
         if len(line.strip()) == i:
             numWords[i-1] += 1
 
-for i in range(1,22):
+for i in range(1,21):
     print('There are',numWords[i-1], i, 'letter words.')
+
+print('There is',numWords[20], '21 letter word')
