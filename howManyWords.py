@@ -7,8 +7,8 @@ file = open('engmix.txt')
 numWords = [0]*21
 
 for i in range(1,22):
-    for line in file.strip():
-        if len(line) == i:
+    for line in file:
+        if len(line.strip()) == i:
             numWords[i-1] += 1
 
 for i in range(1,22):
