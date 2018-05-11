@@ -5,6 +5,7 @@
 file = open('engmix.txt')
 
 for line in file:
+    line = line.strip()
     word = line.split()
     if word[0] == 's' and word[-1] == 'k':
         print(word)
