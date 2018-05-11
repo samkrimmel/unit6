@@ -6,5 +6,5 @@ file = open('engmix.txt')
 
 for line in file:
     line = line.strip()
-    if line[0] == 's' and line[-1] == 'k':
+    if len(line) > 0 and line[0] == 's' and line[-1] == 'k':
         print(line)
