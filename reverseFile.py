@@ -6,4 +6,14 @@ infile = input('Enter a file: ')
 
 file = open(infile)
 
+lines = []
+
+for line in file:
+    lines += line
+
+lines.reverse()
+
+for item in lines:
+    print(item)
+
 
