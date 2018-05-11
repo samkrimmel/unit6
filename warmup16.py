@@ -4,6 +4,6 @@
 
 file = open('engmix.txt')
 
-for line in file:
+for line.strip() in file:
     if line[0] == 's' and line[-1] == 'k':
         print(line)
