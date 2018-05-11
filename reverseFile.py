@@ -11,6 +11,7 @@ lines = []
 for line in file:
     lines += line
 
+print(lines)
 lines.reverse()
 
 for item in lines:
