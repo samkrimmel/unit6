@@ -12,4 +12,4 @@ for line in file:
     if bestNum.count(letter) < line.count(letter):
         bestNum = line
 
-print(bestNum, 'has your letter the most times!')
+print(bestNum,'has your letter the most times!')
