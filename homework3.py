@@ -5,6 +5,6 @@
 file = open('homework1.py')
 
 for line in file:
-    line = line.strip(),'!'
+    line += '!'
     
 print(file)
