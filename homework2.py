@@ -10,5 +10,11 @@ for line in file:
 
 numWord = int(input('Enter a number of a word in the dictionary: '))
 
+while True:
+    if numWord > len(fileList):
+        numWord = int(input('Enter a number of a word in the dictionary: '))
+    else:
+        break
+
 print(fileList[numWord-1])
 
