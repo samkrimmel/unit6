@@ -7,5 +7,7 @@ file = open('engmix.txt')
 word = input('Enter a word: ')
 
 for line in file:
-    if word == line:
+    if word == line.strip():
         print('Your word is in the dictionary!')
+    else:
+        print('Your word is not in the super sketchy online dictionary')
