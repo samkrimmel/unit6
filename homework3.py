@@ -5,6 +5,4 @@
 file = open('homework1.py')
 
 for line in file:
-    line += '!'
-    
-print(file)
+    print(line)
