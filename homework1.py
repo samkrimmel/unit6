@@ -9,5 +9,7 @@ word = input('Enter a word: ')
 for line in file:
     if word == line.strip():
         print('Your word is in the dictionary!')
-    else:
-        print('Your word is not in the super sketchy online dictionary')
+        break
+print('Your word is not in the super sketchy dictionary')
+
+
