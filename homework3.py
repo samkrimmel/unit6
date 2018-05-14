@@ -5,7 +5,7 @@
 file = open('homework1.py')
 
 for line in file:
-    if len(line) > 0:
+    if len(line) > 1:
         print(line.strip('\n') + '!')
     else:
         print(line.strip('\n'))
