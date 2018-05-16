@@ -10,7 +10,7 @@ for line in file:
     L.append(line.strip())
     L2 = L[:]
     if L == L2.reverse():
-        palindromes.apppend(line.strip())
+        palindromes.append(line.strip())
 
 for item in palindromes:
     print(item)
