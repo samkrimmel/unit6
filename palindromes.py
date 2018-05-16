@@ -8,7 +8,8 @@ palindromes = []
 for line in file:
     L = []
     L.append(line.strip())
-    if L == L.reverse():
+    L2 = L.reverse()
+    if L == L2:
         palindromes.append(line.strip())
 
 for item in palindromes:
