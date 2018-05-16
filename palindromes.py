@@ -12,5 +12,4 @@ for line in file:
     if L == L2:
         palindromes.append(line.strip())
 
-for item in palindromes:
-    print(item)
+print(palindromes)
