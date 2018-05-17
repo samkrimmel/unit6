@@ -6,10 +6,10 @@ file = open('engmix.txt')
 
 palindromes = []
 for line in file:
-    L = []
-    L.append(line.strip())
-    L2 = L[:]
-    if L == L2.reverse():
+    back = ''
+    for ch in line:
+        back = ch + back
+    if line == back:
         palindromes.append(line.strip())
 
 for item in palindromes:
