@@ -4,11 +4,11 @@
 
 file = open('engmix.txt')
 
-for ch in 'abcdefghijklmnopqrstuvwxyz':
-    L = []
-    for line in file:
-        line = line.strip()
-        while ch == line[0]:
-            L.append(line)
-    print(max(L))
-    print(min(L))
+Long = ['']*26
+Short = ['']*26
+
+alph = 'abcdefghijklmnopqrstuvwxyz'
+
+for line in file:
+    line = line.strip()
+    if alph.index(line[0])
