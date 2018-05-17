@@ -10,7 +10,7 @@ for line in file:
     back = ''
     for ch in line.strip():
         back = ch + back
-    if line == back:
+    if line.strip() == back:
         palindromes.append(line.strip())
 
 print(palindromes)
