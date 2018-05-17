@@ -4,8 +4,9 @@
 
 file = open('engmix.txt')
 
-letrs = 0
+
 for line in file:
+    letrs = 0
     for letter in 'krimelKRIMEL':
         if letter in line:
             letrs += 1
