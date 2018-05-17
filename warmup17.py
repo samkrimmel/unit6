@@ -10,4 +10,4 @@ for line in file:
         if letter in line:
             letrs += 1
     if letrs >= 6:
-        print line
+        print(line.strip())
