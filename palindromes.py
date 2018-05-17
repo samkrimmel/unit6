@@ -13,4 +13,5 @@ for line in file:
     if line.strip() == back:
         palindromes.append(line.strip())
 
-print(palindromes)
+for item in palindromes:
+    print(item)
