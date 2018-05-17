@@ -2,7 +2,7 @@
 #5/17/18
 #warmup17.py - dununu dununu nu nu nuuu do do doooooo
 
-file = open('engmix.txt.)
+file = open('engmix.txt')
 
 letrs = 0
 for line in file:
