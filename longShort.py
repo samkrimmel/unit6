@@ -15,3 +15,6 @@ for line in file:
         Long[alph.index(line[0])] = line
     if line < Short[alph.index(line[0])]:
         Short[alph.index(line[0])] = line
+        
+print(Long)
+print(Short)
