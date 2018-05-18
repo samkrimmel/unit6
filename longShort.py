@@ -11,9 +11,9 @@ alph = 'abcdefghijklmnopqrstuvwxyz'
 
 for line in file:
     line = line.strip()
-    if Long[alph.index(line[0])] < line:
+    if Long[alph.index((line[0]).lower())] < line:
         Long[alph.index(line[0])] = line
-    if line < Short[alph.index(line[0])]:
+    if line < Short[alph.index((line[0]).lower())]:
         Short[alph.index(line[0])] = line
         
 print(Long)
