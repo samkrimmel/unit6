@@ -5,10 +5,13 @@
 file = open('engmix.txt')
 
 Long = ['']*26
-Short = ['']*26
+Short = ['aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa']*26
 
 alph = 'abcdefghijklmnopqrstuvwxyz'
 
 for line in file:
     line = line.strip()
-    if alph.index(line[0])
+    if Long[alph.index(line[0])] < line:
+        Long[alph.index(line[0])] = line
+    if line < Short[alph.index(line[0])]:
+        Short[alph.index(line[0])] = line
