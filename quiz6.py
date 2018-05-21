@@ -4,6 +4,13 @@
 
 file = open('engmix.txt')
 
+#Program 1:
+letter = input('Enter a letter: ')
+
+for line in file:
+    line = line.strip()
+    if line.count(letter) == 4:
+        print(line)
 """
 #Program 2:
 for line in file:
@@ -23,6 +30,8 @@ for line in file:
     if len(line) == num and line[0] == letter:
         print(line)
 """
+"""
+#Program 4:
 words = []
 
 for line in file:
@@ -31,3 +40,4 @@ for line in file:
         words.append(line)
 
 print(words[7999])
+"""
