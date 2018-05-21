@@ -13,6 +13,8 @@ for line in file:
             print(line)
             break
 """
+"""
+#Program 3:
 letter = input('Enter a letter: ')
 num = int(input('Enter a number: '))
 
@@ -20,3 +22,12 @@ for line in file:
     line = line.strip()
     if len(line) == num and line[0] == letter:
         print(line)
+"""
+words = []
+
+for line in file:
+    line = line.strip()
+    if len(line) >= 10:
+        words.append(line)
+
+print(words[7999])
